@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sulla privacy — MoneyMind</title>
+<meta name="description" content="Informativa sul trattamento dei dati personali dell'applicazione MoneyMind, ai sensi degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR).">
+<style>
+  :root {
+    --bg: #f6fbfb; --card: #ffffff; --text: #0f172a; --muted: #475569;
+    --accent: #0f766e; --line: rgba(15,23,42,.1);  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1520; --card: #161d2b; --text: #f1f5f9; --muted: #94a3b8;
+      --accent: #4ecdc4; --line: rgba(255,255,255,.1);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 4rem; background: var(--bg); color: var(--text);
+    font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; }
+  h2 {
+    font-size: 1.15rem; margin: 2.4rem 0 .8rem; padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+  .sub { color: var(--muted); margin: .2rem 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 1rem 1.25rem; margin: 1.2rem 0;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: .88rem; }
+  code { background: var(--line); padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2rem; } li { margin: .35rem 0; }
+  .toc { font-size: .95rem; }
+  .toc a { text-decoration: none; }
+  footer { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  @media (max-width: 560px) { table, th, td { font-size: .88rem; } }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Informativa sulla privacy</h1>
+<p class="sub"><strong>MoneyMind</strong> — applicazione per la gestione delle finanze personali</p>
+<p class="sub">Resa ai sensi degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR)</p>
+<p class="sub">Versione 1.0 — in vigore dal 11 agosto 2026</p>
+
+<div class="card toc">
+  <strong>Indice</strong>
+  <ul>
+    <li><a href="#titolare">1. Titolare del trattamento e contatti</a></li>
+    <li><a href="#dati">2. Quali dati raccogliamo</a></li>
+    <li><a href="#non">3. Che cosa non facciamo</a></li>
+    <li><a href="#finalita">4. Finalità e basi giuridiche</a></li>
+    <li><a href="#terze">5. Servizi di terze parti e destinatari</a></li>
+    <li><a href="#dove">6. Dove sono conservati i dati</a></li>
+    <li><a href="#conservazione">7. Per quanto tempo li conserviamo</a></li>
+    <li><a href="#sicurezza">8. Sicurezza</a></li>
+    <li><a href="#diritti">9. I tuoi diritti</a></li>
+    <li><a href="#cancellazione">10. Come cancellare i dati o l'account</a></li>
+    <li><a href="#minori">11. Minori</a></li>
+    <li><a href="#modifiche">12. Modifiche all'informativa</a></li>
+  </ul>
+</div>
+
+<h2 id="titolare">1. Titolare del trattamento e contatti</h2>
+<p>
+  Il titolare del trattamento dei dati personali raccolti tramite l'applicazione
+  <strong>MoneyMind</strong> (identificativo <code>it.alphamind.moneymind</code>) è
+  <strong>Carlo Giacomo Verzeri</strong>, persona fisica, sviluppatore indipendente
+  dell'applicazione. MoneyMind non è distribuita da una società e non esiste alcun altro
+  soggetto che concorra a determinare finalità e modalità del trattamento.
+</p>
+<p>
+  Per esercitare i tuoi diritti o per qualsiasi domanda su questa informativa puoi
+  scrivere a <a href="mailto:info@alphamind.it"><strong>info@alphamind.it</strong></a>.
+  Rispondiamo entro un mese dalla ricezione, come previsto dall'articolo 12 del GDPR.
+</p>
+<p>
+  Non è stato nominato un Responsabile della protezione dei dati (DPO), non ricorrendo i
+  presupposti dell'articolo 37 del GDPR.
+</p>
+
+<h2 id="dati">2. Quali dati raccogliamo</h2>
+
+<h3>2.1 Dati dell'account</h3>
+<p>
+  Per creare e usare un account raccogliamo il <strong>nome utente</strong> e
+  l'<strong>indirizzo email</strong>. Se scegli di accedere con Google, riceviamo anche
+  l'<strong>identificativo</strong> e l'<strong>indirizzo email</strong> del tuo account
+  Google. Puoi facoltativamente aggiungere un'<strong>immagine del profilo</strong>.
+</p>
+<p>
+  L'autenticazione è gestita da Firebase Authentication (Google):
+  <strong>la password non transita dai nostri server e non viene da noi conservata.</strong>
+  Riceviamo unicamente un identificativo tecnico dell'utente autenticato.
+</p>
+
+<h3>2.2 Dati finanziari inseriti da te</h3>
+<p>
+  MoneyMind conserva le informazioni economiche che <strong>inserisci manualmente</strong>
+  per far funzionare l'applicazione:
+</p>
+<ul>
+  <li>portafogli, gruppi di portafogli e relativi saldi;</li>
+  <li>movimenti, con importo, data, descrizione, categoria ed etichette;</li>
+  <li>budget e obiettivi di risparmio;</li>
+  <li>obbligazioni, prestiti e crediti fra persone, con i relativi pagamenti;</li>
+  <li>movimenti ricorrenti, buoni pasto e conti welfare;</li>
+  <li>eventuali dati di busta paga che scegli di registrare.</li>
+</ul>
+<p>
+  Questi dati possono rientrare fra quelli che l'articolo 4 del GDPR definisce personali,
+  perché riferibili a te. <strong>Non sono dati appartenenti a categorie particolari</strong>
+  ai sensi dell'articolo 9, salvo tu scelga di annotarne di tua iniziativa nelle
+  descrizioni libere: in tal caso ne sei tu l'unico responsabile della scelta.
+</p>
+
+<h3>2.3 Dati relativi alla condivisione</h3>
+<p>
+  Se usi le funzioni sociali conserviamo i collegamenti fra il tuo account e quelli degli
+  utenti con cui condividi portafogli o gruppi di obbligazioni, insieme alle sfide e ai
+  riconoscimenti ottenuti. Gli utenti con cui condividi vedono i dati dell'elemento
+  condiviso: la condivisione avviene solo su tua richiesta esplicita ed è revocabile.
+</p>
+
+<h3>2.4 Dati tecnici</h3>
+<p>
+  Se attivi le notifiche conserviamo un <strong>identificativo del dispositivo</strong>
+  fornito da Firebase Cloud Messaging e il <strong>tipo di piattaforma</strong> (Android o
+  iOS), necessari per recapitarle. I server registrano inoltre i normali dati di
+  funzionamento (data e ora delle richieste, esito, indirizzo IP di provenienza), usati per
+  diagnosticare malfunzionamenti e prevenire abusi.
+</p>
+
+<h3>2.5 Dati conservati sul tuo dispositivo</h3>
+<p>
+  Per funzionare anche con connettività assente o lenta, l'applicazione mantiene una copia
+  locale dei tuoi dati e delle preferenze. Questa copia resta sul dispositivo, non è
+  accessibile a noi e viene rimossa disinstallando l'applicazione.
+</p>
+
+<h2 id="non">3. Che cosa non facciamo</h2>
+<div class="card">
+  <ul>
+    <li>Non usiamo strumenti di analisi statistica del comportamento né di profilazione.</li>
+    <li>Non adottiamo processi decisionali automatizzati che producano effetti giuridici
+        su di te (articolo 22 del GDPR).</li>
+    <li>Non mostriamo pubblicità e non condividiamo dati con circuiti pubblicitari.</li>
+    <li>Non vendiamo, cediamo né affittiamo i tuoi dati a terzi.</li>
+    <li>Non ci colleghiamo ai tuoi conti bancari e non chiediamo credenziali bancarie,
+        numeri di carta o codici di pagamento: i dati economici sono soltanto quelli che
+        digiti tu.</li>
+    <li>Non raccogliamo dati di geolocalizzazione.</li>
+    <li>Non accediamo a rubrica, fotocamera, galleria, SMS o registro chiamate, se non
+        per la sola immagine che scegli eventualmente di caricare come profilo.</li>
+  </ul>
+</div>
+
+<h2 id="finalita">4. Finalità e basi giuridiche</h2>
+<table>
+  <tr><th>Finalità</th><th>Dati</th><th>Base giuridica</th></tr>
+  <tr>
+    <td>Fornire le funzioni dell'applicazione e conservare quanto inserisci</td>
+    <td>Dati dell'account e dati finanziari</td>
+    <td>Esecuzione del contratto — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Creare l'account e verificare l'identità a ogni accesso</td>
+    <td>Email, identificativo utente</td>
+    <td>Esecuzione del contratto — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Condividere portafogli e gruppi con altri utenti</td>
+    <td>Collegamenti fra account, dati condivisi</td>
+    <td>Esecuzione del contratto, su tua richiesta — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Inviare notifiche su scadenze e attività</td>
+    <td>Identificativo del dispositivo</td>
+    <td>Consenso, revocabile in ogni momento — art. 6.1.a</td>
+  </tr>
+  <tr>
+    <td>Garantire sicurezza, prevenire abusi e diagnosticare malfunzionamenti</td>
+    <td>Dati tecnici di funzionamento</td>
+    <td>Legittimo interesse alla sicurezza del servizio — art. 6.1.f</td>
+  </tr>
+</table>
+<p>
+  Il conferimento dei dati dell'account è <strong>necessario</strong> per usare
+  l'applicazione: senza non è possibile creare un profilo né conservare i tuoi dati. Il
+  conferimento dell'identificativo per le notifiche è invece <strong>facoltativo</strong>
+  e la sua mancanza comporta unicamente il mancato recapito degli avvisi.
+</p>
+
+<h2 id="terze">5. Servizi di terze parti e destinatari</h2>
+<p>
+  I dati sono trattati da un numero ristretto di fornitori, nominati responsabili del
+  trattamento ai sensi dell'articolo 28 del GDPR, per le sole finalità sopra indicate:
+</p>
+<table>
+  <tr><th>Fornitore</th><th>Servizio</th><th>Dati coinvolti</th></tr>
+  <tr>
+    <td>Google Ireland Ltd. — Firebase Authentication</td>
+    <td>Autenticazione, accesso con Google, gestione delle password</td>
+    <td>Email, identificativo utente, credenziali di accesso</td>
+  </tr>
+  <tr>
+    <td>Google Ireland Ltd. — Firebase Cloud Messaging</td>
+    <td>Recapito delle notifiche</td>
+    <td>Identificativo del dispositivo</td>
+  </tr>
+  <tr>
+    <td>Amazon Web Services EMEA SARL</td>
+    <td>Server applicativo e banche dati (regione Milano, Italia)</td>
+    <td>Tutti i dati dell'account e quelli che inserisci</td>
+  </tr>
+  <tr>
+    <td>Google Ireland Ltd. — Google Play</td>
+    <td>Distribuzione e aggiornamento dell'applicazione</td>
+    <td>Dati trattati da Google secondo le proprie condizioni</td>
+  </tr>
+</table>
+<p>
+  I dati possono inoltre essere comunicati ad autorità pubbliche quando previsto da un
+  obbligo di legge. Non è previsto alcun altro destinatario.
+</p>
+<p>
+  <strong>Trasferimenti extra-UE.</strong> I dati che inserisci nell'applicazione — conti,
+  movimenti, budget, obbligazioni — sono conservati esclusivamente su server situati in
+  Italia e <strong>non vengono trasferiti fuori dall'Unione europea</strong>.
+</p>
+<p>
+  Fanno eccezione i soli dati gestiti dai servizi Google (credenziali di accesso e
+  identificativo per le notifiche), che Google può trattare anche al di fuori dello Spazio
+  economico europeo. Tali trasferimenti avvengono sulla base delle Clausole contrattuali
+  standard adottate dalla Commissione europea e delle ulteriori garanzie previste dai
+  contratti di trattamento dati di Google.
+</p>
+
+<h2 id="dove">6. Dove sono conservati i dati</h2>
+<p>
+  I dati dell'applicazione sono conservati su server Amazon EC2 situati nella regione
+  <strong>Europa (Milano), Italia</strong> — identificativo AWS <code>eu-south-1</code>.
+  Restano quindi <strong>all'interno dell'Unione europea</strong> per l'intero ciclo di
+  vita. Le banche dati non sono accessibili dalla rete pubblica e sono raggiungibili
+  unicamente dal server applicativo.
+</p>
+<p>
+  Le credenziali di accesso sono conservate da Google nell'infrastruttura Firebase, con le
+  garanzie descritte nella <a href="https://firebase.google.com/support/privacy">informativa
+  privacy di Firebase</a>.
+</p>
+
+<h2 id="conservazione">7. Per quanto tempo li conserviamo</h2>
+<table>
+  <tr><th>Categoria</th><th>Periodo</th></tr>
+  <tr>
+    <td>Dati dell'account e dati finanziari</td>
+    <td>Finché l'account resta attivo</td>
+  </tr>
+  <tr>
+    <td>Elementi eliminati dall'applicazione (budget, obiettivi di risparmio, gruppi di obbligazioni)</td>
+    <td>30 giorni dall'eliminazione, poi rimozione definitiva</td>
+  </tr>
+  <tr>
+    <td>Identificativo per le notifiche</td>
+    <td>Finché le notifiche restano attive</td>
+  </tr>
+  <tr>
+    <td>Dati tecnici di funzionamento</td>
+    <td>Il tempo necessario alla diagnosi e alla sicurezza, comunque non oltre 12 mesi</td>
+  </tr>
+</table>
+<p>
+  Il periodo di 30 giorni sugli elementi eliminati esiste per permetterti di rimediare a
+  una cancellazione involontaria; trascorso, la rimozione è definitiva e irreversibile.
+</p>
+
+<h2 id="sicurezza">8. Sicurezza</h2>
+<p>
+  Adottiamo misure tecniche e organizzative adeguate ai sensi dell'articolo 32 del GDPR:
+</p>
+<ul>
+  <li>ogni richiesta al server verifica l'identità di chi la effettua e i permessi
+      sull'elemento richiesto: i dati sono accessibili solo al titolare dell'account e a
+      chi lui ha scelto di includere in una condivisione;</li>
+  <li>le password non sono conservate sui nostri sistemi, essendo gestite interamente da
+      Firebase Authentication;</li>
+  <li>le banche dati non sono esposte sulla rete pubblica;</li>
+  <li>è attivo un limite alla frequenza delle richieste, per contenere tentativi di abuso;</li>
+  <li>l'accesso amministrativo all'infrastruttura è riservato al titolare.</li>
+</ul>
+<p>
+  In caso di violazione dei dati personali che comporti un rischio elevato per i tuoi
+  diritti, provvederemo a informarti senza ingiustificato ritardo e a notificare l'evento
+  all'autorità di controllo, come previsto dagli articoli 33 e 34 del GDPR.
+</p>
+
+<h2 id="diritti">9. I tuoi diritti</h2>
+<p>In qualsiasi momento puoi esercitare i diritti previsti dagli articoli 15-22 del GDPR:</p>
+<table>
+  <tr><th>Diritto</th><th>In cosa consiste</th></tr>
+  <tr><td>Accesso (art. 15)</td><td>Sapere quali dati trattiamo e ottenerne copia</td></tr>
+  <tr><td>Rettifica (art. 16)</td><td>Correggere dati inesatti o incompleti</td></tr>
+  <tr><td>Cancellazione (art. 17)</td><td>Ottenere la rimozione dei tuoi dati</td></tr>
+  <tr><td>Limitazione (art. 18)</td><td>Chiedere che i dati siano solo conservati e non altrimenti trattati</td></tr>
+  <tr><td>Portabilità (art. 20)</td><td>Ricevere i dati in formato strutturato e leggibile da una macchina</td></tr>
+  <tr><td>Opposizione (art. 21)</td><td>Opporti ai trattamenti fondati sul legittimo interesse</td></tr>
+  <tr><td>Revoca del consenso (art. 7)</td><td>Ritirare il consenso alle notifiche, senza pregiudicare la liceità del trattamento precedente</td></tr>
+</table>
+<p>
+  <strong>Due di questi diritti li eserciti direttamente dall'applicazione</strong>, senza
+  bisogno di scriverci: la portabilità, tramite l'esportazione dei dati in formato JSON o
+  PDF, e la cancellazione, con le procedure descritte al punto seguente.
+</p>
+<p>
+  Per ogni altra richiesta scrivi a
+  <a href="mailto:info@alphamind.it"><strong>info@alphamind.it</strong></a>. Hai inoltre
+  diritto di proporre reclamo al Garante per la protezione dei dati personali
+  (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>) o all'autorità di
+  controllo dello Stato in cui risiedi.
+</p>
+
+<h2 id="cancellazione">10. Come cancellare i dati o l'account</h2>
+<p>MoneyMind prevede due operazioni distinte, entrambe disponibili nell'applicazione.</p>
+
+<div class="card">
+  <h3 style="margin-top:0">Cancellare i dati, mantenendo l'account</h3>
+  <p style="margin-bottom:0">
+    Da <em>Profilo → Elimina i miei dati</em>. Rimuove movimenti, portafogli, budget,
+    obiettivi e obbligazioni, lasciando attivo il profilo di accesso. Utile per ripartire
+    da zero senza registrarsi di nuovo.
+  </p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:0">Cancellare definitivamente l'account</h3>
+  <p>
+    Da <em>Profilo → Elimina account</em>. L'operazione richiede una conferma esplicita e
+    comporta:
+  </p>
+  <ul style="margin-bottom:0">
+    <li>la rimozione di tutti i dati associati dai nostri sistemi;</li>
+    <li>la rimozione delle credenziali da Firebase Authentication;</li>
+    <li>la cessazione di ogni condivisione attiva con altri utenti.</li>
+  </ul>
+</div>
+
+<p>
+  Dopo la cancellazione conserviamo unicamente un <strong>identificativo tecnico
+  anonimo</strong> dell'avvenuta eliminazione. Non contiene dati personali, non permette
+  di risalire alla tua identità e ha l'unico scopo di impedire che eventuali dati residui
+  vengano riassociati a un nuovo account. L'operazione è
+  <strong>irreversibile</strong>: se desideri conservare i tuoi dati, esportali prima di
+  procedere.
+</p>
+<p>
+  Se preferisci non usare l'applicazione, puoi richiedere la cancellazione scrivendo a
+  <a href="mailto:info@alphamind.it"><strong>info@alphamind.it</strong></a> dall'indirizzo
+  email associato all'account. Daremo seguito entro un mese.
+</p>
+
+<h2 id="minori">11. Minori</h2>
+<p>
+  MoneyMind non è destinato a minori di 14 anni e non ne raccoglie consapevolmente i dati.
+  Se ritieni che un minore ci abbia fornito dati personali senza il consenso di chi
+  esercita la responsabilità genitoriale, scrivi a
+  <a href="mailto:info@alphamind.it">info@alphamind.it</a>: provvederemo alla cancellazione
+  senza ritardo.
+</p>
+
+<h2 id="modifiche">12. Modifiche all'informativa</h2>
+<p>
+  Questa informativa può essere aggiornata quando cambiano le funzionalità
+  dell'applicazione, i fornitori coinvolti o gli obblighi normativi. La data in cima
+  indica la versione in vigore. Le modifiche sostanziali ti verranno segnalate
+  all'interno dell'applicazione prima che diventino efficaci.
+</p>
+
+<footer>
+  <p>
+    MoneyMind — <code>it.alphamind.moneymind</code><br>
+    Titolare del trattamento: Carlo Giacomo Verzeri —
+    <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
+    Versione 1.0 dell'11 agosto 2026
+  </p>
+</footer>
+
+</main>
+</body>
+</html>
