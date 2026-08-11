@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliminare il tuo account — MoneyMind</title>
+<meta name="description" content="Come eliminare l'account MoneyMind e i dati associati, quali dati vengono cancellati e quali conservati.">
+<style>
+  :root {
+    --bg: #f6fbfb; --card: #ffffff; --text: #0f172a; --muted: #475569;
+    --accent: #0f766e; --line: rgba(15,23,42,.1);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1520; --card: #161d2b; --text: #f1f5f9; --muted: #94a3b8;
+      --accent: #4ecdc4; --line: rgba(255,255,255,.1);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 4rem; background: var(--bg); color: var(--text);
+    font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; }
+  h2 {
+    font-size: 1.15rem; margin: 2.2rem 0 .8rem; padding-top: 1.3rem;
+    border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .4rem; }
+  .sub { color: var(--muted); margin: .2rem 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 1rem 1.25rem; margin: 1.2rem 0;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: .88rem; }
+  a { color: var(--accent); }
+  ol, ul { padding-left: 1.3rem; } li { margin: .4rem 0; }
+  .steps li { margin: .6rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Eliminare il tuo account</h1>
+<p class="sub"><strong>MoneyMind</strong> — applicazione per la gestione delle finanze personali</p>
+<p class="sub">Sviluppatore: Carlo Giacomo Verzeri</p>
+
+<p>
+  Puoi eliminare il tuo account MoneyMind e i dati associati in qualsiasi momento, senza
+  doverci contattare. Questa pagina spiega come farlo, che cosa viene cancellato e che
+  cosa viene conservato.
+</p>
+
+<h2>Due possibilità</h2>
+<p>
+  MoneyMind distingue fra il cancellare i propri <strong>dati</strong> e il cancellare
+  l'<strong>account</strong>. Sono due operazioni separate, entrambe disponibili
+  nell'applicazione.
+</p>
+
+<div class="card">
+  <h3 style="margin-top:0">Cancellare i dati, mantenendo l'account</h3>
+  <p style="margin-bottom:0">
+    Rimuove movimenti, portafogli, budget, obiettivi e obbligazioni, lasciando attivo il
+    profilo di accesso. Utile per ripartire da zero senza doversi registrare di nuovo.
+  </p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:0">Cancellare definitivamente l'account</h3>
+  <p style="margin-bottom:0">
+    Elimina l'account, le credenziali di accesso e tutti i dati associati.
+    L'operazione è irreversibile.
+  </p>
+</div>
+
+<h2>Come procedere, passo per passo</h2>
+<ol class="steps">
+  <li>Apri l'applicazione <strong>MoneyMind</strong> e accedi al tuo account.</li>
+  <li>Tocca <strong>Altro</strong> nella barra in fondo allo schermo.</li>
+  <li>Apri <strong>Impostazioni</strong>.</li>
+  <li>Tocca <strong>Modifica Profilo</strong>.</li>
+  <li>
+    Scorri fino in fondo alla schermata e tocca
+    <strong>Elimina account</strong>.
+  </li>
+  <li>
+    Conferma quando richiesto. La conferma è esplicita di proposito: l'operazione non è
+    annullabile.
+  </li>
+</ol>
+
+<div class="card">
+  <p style="margin:0">
+    <strong>Prima di procedere.</strong> Se vuoi conservare i tuoi dati, esportali:
+    dalla sezione di esportazione puoi scaricare tutto in formato JSON o PDF. Dopo la
+    cancellazione non è più possibile recuperarli.
+  </p>
+</div>
+
+<h3>Se non riesci ad accedere all'applicazione</h3>
+<p>
+  Scrivi a <a href="mailto:info@alphamind.it"><strong>info@alphamind.it</strong></a>
+  dall'indirizzo email associato al tuo account, indicando che desideri eliminarlo. Daremo
+  seguito entro un mese, come previsto dall'articolo 12 del GDPR.
+</p>
+
+<h2>Che cosa viene eliminato</h2>
+<p>Scegliendo <strong>Elimina account</strong> vengono rimossi:</p>
+<table>
+  <tr><th>Categoria</th><th>Esempi</th></tr>
+  <tr>
+    <td>Dati dell'account</td>
+    <td>Nome utente, indirizzo email, immagine del profilo</td>
+  </tr>
+  <tr>
+    <td>Credenziali di accesso</td>
+    <td>Rimosse da Firebase Authentication, compreso il collegamento con Google</td>
+  </tr>
+  <tr>
+    <td>Dati finanziari</td>
+    <td>
+      Portafogli e saldi, movimenti, categorie ed etichette, budget, obiettivi di
+      risparmio, obbligazioni e prestiti, movimenti ricorrenti, buoni pasto, dati di
+      busta paga
+    </td>
+  </tr>
+  <tr>
+    <td>Dati di condivisione</td>
+    <td>Collegamenti con altri utenti, sfide e riconoscimenti</td>
+  </tr>
+  <tr>
+    <td>Notifiche</td>
+    <td>Identificativo del dispositivo usato per recapitarle</td>
+  </tr>
+</table>
+
+<h2>Che cosa viene conservato, e per quanto</h2>
+<table>
+  <tr><th>Elemento</th><th>Periodo</th><th>Perché</th></tr>
+  <tr>
+    <td>Identificativo tecnico anonimo della cancellazione</td>
+    <td>A tempo indeterminato</td>
+    <td>
+      Non contiene dati personali e non permette di risalire alla tua identità. Serve a
+      impedire che eventuali dati residui vengano riassociati a un nuovo account.
+    </td>
+  </tr>
+  <tr>
+    <td>Elementi eliminati dall'app prima della chiusura dell'account</td>
+    <td>Fino a 30 giorni</td>
+    <td>
+      Budget, obiettivi di risparmio e gruppi di obbligazioni cancellati singolarmente
+      restano recuperabili per 30 giorni, poi vengono rimossi definitivamente.
+    </td>
+  </tr>
+</table>
+
+<p>
+  Nessun altro dato viene conservato. Non esistono periodi di conservazione aggiuntivi
+  oltre a quelli indicati sopra.
+</p>
+
+<h2>Dati sul tuo dispositivo</h2>
+<p>
+  L'applicazione mantiene una copia locale dei dati per funzionare anche senza
+  connessione. Quella copia resta sul dispositivo e non è accessibile a noi: viene
+  rimossa disinstallando l'applicazione.
+</p>
+
+<footer>
+  <p>
+    MoneyMind — <code>it.alphamind.moneymind</code><br>
+    Sviluppatore: Carlo Giacomo Verzeri —
+    <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
+    <a href="../">Informativa sulla privacy</a>
+  </p>
+</footer>
+
+</main>
+</body>
+</html>
