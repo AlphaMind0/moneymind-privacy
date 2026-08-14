@@ -50,7 +50,7 @@
 <h1>Informativa sulla privacy</h1>
 <p class="sub"><strong>MoneyMind</strong> — applicazione per la gestione delle finanze personali</p>
 <p class="sub">Resa ai sensi degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR)</p>
-<p class="sub">Versione 1.1 — in vigore dal 11 agosto 2026</p>
+<p class="sub">Versione 1.2 — in vigore dal 15 agosto 2026</p>
 
 <div class="card toc">
   <strong>Indice</strong>
@@ -147,10 +147,43 @@
   accessibile a noi e viene rimossa disinstallando l'applicazione.
 </p>
 
+<h3>2.6 Importazione di spese da Telegram</h3>
+<p>
+  Se scegli di collegare volontariamente una chat Telegram al bot MoneyMind, trattiamo
+  l'<strong>identificativo tecnico della chat</strong>, il tuo identificativo MoneyMind,
+  il conto scelto per la registrazione e i contenuti che invii al bot per registrare una
+  spesa: testo del messaggio e, se usi queste opzioni, messaggi vocali o immagini.
+  Telegram può rendere disponibile al bot anche informazioni pubbliche del tuo profilo,
+  quali nome visualizzato, username e immagine del profilo.
+</p>
+<p>
+  Il collegamento nasce dall'app, richiede un codice temporaneo e può essere revocato in
+  qualsiasi momento. I messaggi servono soltanto a preparare una proposta di registrazione:
+  <strong>nessuna spesa viene creata senza la tua conferma esplicita.</strong>
+</p>
+
+<h3>2.7 Funzioni di intelligenza artificiale</h3>
+<p>
+  Alcune funzioni facoltative, disponibili solo quando attivate nell'app, usano modelli di
+  intelligenza artificiale per comprendere un messaggio inviato al bot oppure per generare
+  un'analisi testuale delle tue spese. Per l'importazione da chat, il contenuto strettamente
+  necessario del messaggio, della trascrizione vocale o dell'immagine può essere inviato al
+  fornitore IA configurato per elaborare la richiesta.
+</p>
+<p>
+  Per l'analisi delle spese Premium, quando sarà disponibile e dopo il tuo consenso esplicito,
+  inviamo al fornitore IA <strong>solo dati aggregati e minimizzati</strong>: periodo analizzato,
+  totali di entrate/uscite, confronti con il periodo precedente e principali categorie di
+  spesa. Non inviamo descrizioni dei movimenti, note, nomi di conti o portafogli, identificativi
+  delle transazioni, allegati o singole righe di movimento. Le analisi sono suggerimenti
+  informativi, non consulenza finanziaria, fiscale, creditizia o d'investimento e non producono
+  decisioni con effetti giuridici o analogamente significativi su di te.
+</p>
+
 <h2 id="non">3. Che cosa non facciamo</h2>
 <div class="card">
   <ul>
-    <li>Non usiamo strumenti di analisi statistica del comportamento né di profilazione.</li>
+    <li>Non usiamo i tuoi dati per pubblicità, marketing comportamentale o profilazione commerciale.</li>
     <li>Non adottiamo processi decisionali automatizzati che producano effetti giuridici
         su di te (articolo 22 del GDPR).</li>
     <li>Non mostriamo pubblicità e non condividiamo dati con circuiti pubblicitari.</li>
@@ -188,6 +221,16 @@
     <td>Consenso, revocabile in ogni momento — art. 6.1.a</td>
   </tr>
   <tr>
+    <td>Collegare Telegram e preparare proposte di spesa dai contenuti inviati volontariamente al bot</td>
+    <td>Identificativo chat, messaggi, eventuali vocali o immagini e dati necessari alla proposta</td>
+    <td>Consenso e richiesta dell'utente — art. 6.1.a; esecuzione della funzione richiesta — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Generare analisi testuali Premium delle spese su tua richiesta</td>
+    <td>Profilo finanziario aggregato e minimizzato, periodo e lingua</td>
+    <td>Consenso esplicito, revocabile — art. 6.1.a</td>
+  </tr>
+  <tr>
     <td>Garantire sicurezza, prevenire abusi e diagnosticare malfunzionamenti</td>
     <td>Dati tecnici di funzionamento</td>
     <td>Legittimo interesse alla sicurezza del servizio — art. 6.1.f</td>
@@ -197,7 +240,9 @@
   Il conferimento dei dati dell'account è <strong>necessario</strong> per usare
   l'applicazione: senza non è possibile creare un profilo né conservare i tuoi dati. Il
   conferimento dell'identificativo per le notifiche è invece <strong>facoltativo</strong>
-  e la sua mancanza comporta unicamente il mancato recapito degli avvisi.
+  e la sua mancanza comporta unicamente il mancato recapito degli avvisi. Anche il collegamento
+  Telegram e le funzioni IA sono facoltativi: se non li attivi, MoneyMind continua a funzionare
+  normalmente senza tali funzionalità.
 </p>
 
 <h2 id="terze">5. Servizi di terze parti e destinatari</h2>
@@ -227,22 +272,34 @@
     <td>Distribuzione e aggiornamento dell'applicazione</td>
     <td>Dati trattati da Google secondo le proprie condizioni</td>
   </tr>
+  <tr>
+    <td>Telegram Messenger Inc. — Telegram Bot Platform</td>
+    <td>Ricezione e invio dei messaggi del bot, quando scegli di collegarlo</td>
+    <td>Identificativo chat, messaggi, eventuali vocali/immagini e dati pubblici del profilo resi disponibili da Telegram</td>
+  </tr>
+  <tr>
+    <td>Anthropic PBC e, se necessario, OpenAI, L.L.C.</td>
+    <td>Elaborazione IA facoltativa per importazione da chat e analisi testuale Premium</td>
+    <td>Solo i contenuti necessari per l'importazione richiesta oppure il profilo aggregato e minimizzato descritto al punto 2.7</td>
+  </tr>
 </table>
 <p>
   I dati possono inoltre essere comunicati ad autorità pubbliche quando previsto da un
   obbligo di legge. Non è previsto alcun altro destinatario.
 </p>
 <p>
-  <strong>Trasferimenti extra-UE.</strong> I dati che inserisci nell'applicazione — conti,
-  movimenti, budget, obbligazioni — sono conservati esclusivamente su server situati in
-  Italia e <strong>non vengono trasferiti fuori dall'Unione europea</strong>.
+  <strong>Trasferimenti extra-UE.</strong> I dati principali che inserisci nell'applicazione —
+  conti, movimenti, budget e obbligazioni — sono conservati sui nostri server situati in Italia.
+  L'uso facoltativo di Telegram e delle funzioni IA può comportare il trasferimento dei dati
+  indicati ai rispettivi fornitori, anche al di fuori dello Spazio economico europeo.
 </p>
 <p>
-  Fanno eccezione i soli dati gestiti dai servizi Google (credenziali di accesso e
-  identificativo per le notifiche), che Google può trattare anche al di fuori dello Spazio
-  economico europeo. Tali trasferimenti avvengono sulla base delle Clausole contrattuali
-  standard adottate dalla Commissione europea e delle ulteriori garanzie previste dai
-  contratti di trattamento dati di Google.
+  Restano inoltre possibili trasferimenti per i servizi Google (credenziali di accesso e
+  identificativo per le notifiche). Per i trasferimenti internazionali adottiamo le garanzie
+  applicabili previste dalla normativa, incluse, ove necessarie, le Clausole contrattuali
+  standard della Commissione europea e le misure supplementari previste dai fornitori.
+  Prima dell'attivazione delle funzioni IA, verifichiamo le opzioni contrattuali e di
+  conservazione dei dati offerte dal fornitore selezionato.
 </p>
 
 <h2 id="dove">6. Dove sono conservati i dati</h2>
@@ -277,6 +334,18 @@
   <tr>
     <td>Dati tecnici di funzionamento</td>
     <td>Il tempo necessario alla diagnosi e alla sicurezza, comunque non oltre 12 mesi</td>
+  </tr>
+  <tr>
+    <td>Collegamento Telegram e relativi identificativi</td>
+    <td>Finché il collegamento resta attivo; rimozione o anonimizzazione alla revoca, salvo obblighi di legge</td>
+  </tr>
+  <tr>
+    <td>Messaggi e bozze non confermate inviati al bot</td>
+    <td>Solo per il tempo strettamente necessario a preparare e confermare/rifiutare la proposta; le bozze scadono automaticamente</td>
+  </tr>
+  <tr>
+    <td>Analisi IA Premium in cache</td>
+    <td>Fino a 24 ore; non conserviamo una cronologia IA in questa versione</td>
   </tr>
 </table>
 <p>
@@ -318,7 +387,7 @@
   <tr><td>Limitazione (art. 18)</td><td>Chiedere che i dati siano solo conservati e non altrimenti trattati</td></tr>
   <tr><td>Portabilità (art. 20)</td><td>Ricevere i dati in formato strutturato e leggibile da una macchina</td></tr>
   <tr><td>Opposizione (art. 21)</td><td>Opporti ai trattamenti fondati sul legittimo interesse</td></tr>
-  <tr><td>Revoca del consenso (art. 7)</td><td>Ritirare il consenso alle notifiche, senza pregiudicare la liceità del trattamento precedente</td></tr>
+  <tr><td>Revoca del consenso (art. 7)</td><td>Ritirare il consenso alle notifiche, a Telegram o alle funzioni IA, senza pregiudicare la liceità del trattamento precedente</td></tr>
 </table>
 <p>
   <strong>Due di questi diritti li eserciti direttamente dall'applicazione</strong>, senza
@@ -394,7 +463,7 @@
     MoneyMind — <code>it.alphamind.moneymind</code><br>
     Titolare del trattamento: Carlo Giacomo Verzeri —
     <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
-    Versione 1.1 dell'11 agosto 2026
+    Versione 1.2 del 15 agosto 2026
   </p>
 </footer>
 
