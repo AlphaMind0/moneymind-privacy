@@ -1,0 +1,4 @@
+# File dell'IDE (IntelliJ/WebStorm, VS Code): non fanno parte del sito
+.idea/
+.vscode/
+*.iml

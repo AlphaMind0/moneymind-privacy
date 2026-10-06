@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eliminare il tuo account — MoneyMind</title>
-<meta name="description" content="Come eliminare l'account MoneyMind e i dati associati, quali dati vengono cancellati e quali conservati.">
+<title>Eliminazione dell'account — BudgetBeacon</title>
+<meta name="description" content="Come eliminare l'account BudgetBeacon (progetto MoneyMind) e i dati associati, quali dati vengono cancellati e quali conservati.">
 <style>
   :root {
     --bg: #f6fbfb; --card: #ffffff; --text: #0f172a; --muted: #475569;
@@ -33,9 +33,7 @@
     background: var(--card); border: 1px solid var(--line); border-radius: 12px;
     padding: 1rem 1.25rem; margin: 1.2rem 0;
   }
-  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
-  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
-  th { color: var(--muted); font-weight: 600; font-size: .88rem; }
+  code { background: var(--line); padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
   a { color: var(--accent); }
   ol, ul { padding-left: 1.3rem; } li { margin: .4rem 0; }
   .steps li { margin: .6rem 0; }
@@ -45,139 +43,82 @@
 <body>
 <main>
 
-<h1>Eliminare il tuo account</h1>
-<p class="sub"><strong>MoneyMind</strong> — applicazione per la gestione delle finanze personali</p>
-<p class="sub">Sviluppatore: Carlo Giacomo Verzeri</p>
+<h1>Eliminazione dell'account</h1>
+<p class="sub"><strong>BudgetBeacon</strong> (nome del progetto: MoneyMind) — app di finanza personale</p>
+<p class="sub">Versione: 2026-10-04</p>
 
 <p>
-  Puoi eliminare il tuo account MoneyMind e i dati associati in qualsiasi momento, senza
-  doverci contattare. Questa pagina spiega come farlo, che cosa viene cancellato e che
-  cosa viene conservato.
+  Questa pagina spiega come eliminare l'account di <strong>BudgetBeacon</strong>, sviluppata
+  da uno sviluppatore indipendente (contatto
+  <a href="mailto:info@alphamind.it">info@alphamind.it</a>), e quali dati vengono cancellati.
 </p>
 
-<h2>Due possibilità</h2>
-<p>
-  MoneyMind distingue fra il cancellare i propri <strong>dati</strong> e il cancellare
-  l'<strong>account</strong>. Sono due operazioni separate, entrambe disponibili
-  nell'applicazione.
-</p>
-
-<div class="card">
-  <h3 style="margin-top:0">Cancellare i dati, mantenendo l'account</h3>
-  <p style="margin-bottom:0">
-    Rimuove movimenti, portafogli, budget, obiettivi e obbligazioni, lasciando attivo il
-    profilo di accesso. Utile per ripartire da zero senza doversi registrare di nuovo.
-  </p>
-</div>
-
-<div class="card">
-  <h3 style="margin-top:0">Cancellare definitivamente l'account</h3>
-  <p style="margin-bottom:0">
-    Elimina l'account, le credenziali di accesso e tutti i dati associati.
-    L'operazione è irreversibile.
-  </p>
-</div>
-
-<h2>Come procedere, passo per passo</h2>
+<h2>Dall'app (immediato)</h2>
 <ol class="steps">
-  <li>Apri l'applicazione <strong>MoneyMind</strong> e accedi al tuo account.</li>
-  <li>Tocca <strong>Altro</strong> nella barra in fondo allo schermo.</li>
-  <li>Apri <strong>Impostazioni</strong>.</li>
-  <li>Tocca <strong>Modifica Profilo</strong>.</li>
-  <li>
-    Scorri fino in fondo alla schermata e tocca
-    <strong>Elimina account</strong>.
-  </li>
-  <li>
-    Conferma quando richiesto. La conferma è esplicita di proposito: l'operazione non è
-    annullabile.
-  </li>
+  <li>Apri <strong>BudgetBeacon</strong> e accedi.</li>
+  <li>Vai su <strong>Impostazioni → Account → Modifica Profilo → Elimina account</strong>.</li>
+  <li>Conferma: per sicurezza ti chiediamo di ripetere l'accesso.</li>
 </ol>
 
 <div class="card">
-  <p style="margin:0">
-    <strong>Prima di procedere.</strong> Se vuoi conservare i tuoi dati, esportali:
-    dalla sezione di esportazione puoi scaricare tutto in formato JSON o PDF. Dopo la
-    cancellazione non è più possibile recuperarli.
-  </p>
+  L'eliminazione è <strong>immediata e irreversibile</strong>. Se vuoi tenere una copia dei
+  tuoi dati, esportali prima con la funzione <em>Esporta dati</em> (dalla dashboard o dai
+  portafogli).
 </div>
 
-<h3>Se non riesci ad accedere all'applicazione</h3>
+<h2>Senza l'app</h2>
 <p>
-  Scrivi a <a href="mailto:info@alphamind.it"><strong>info@alphamind.it</strong></a>
-  dall'indirizzo email associato al tuo account, indicando che desideri eliminarlo. Daremo
-  seguito entro un mese, come previsto dall'articolo 12 del GDPR.
+  Se non puoi più accedere all'app, scrivi a
+  <a href="mailto:info@alphamind.it?subject=Eliminazione%20account"><strong>info@alphamind.it</strong></a>
+  dall'indirizzo email dell'account, con oggetto "Eliminazione account" e il tuo username.
+  Per proteggere il tuo account potremmo chiederti una conferma di identità. Eseguiamo la
+  richiesta entro 30 giorni e ti confermiamo via email.
 </p>
 
-<h2>Che cosa viene eliminato</h2>
-<p>Scegliendo <strong>Elimina account</strong> vengono rimossi:</p>
-<table>
-  <tr><th>Categoria</th><th>Esempi</th></tr>
-  <tr>
-    <td>Dati dell'account</td>
-    <td>Nome utente, indirizzo email, immagine del profilo</td>
-  </tr>
-  <tr>
-    <td>Credenziali di accesso</td>
-    <td>Rimosse da Firebase Authentication, compreso il collegamento con Google</td>
-  </tr>
-  <tr>
-    <td>Dati finanziari</td>
-    <td>
-      Portafogli e saldi, movimenti, categorie ed etichette, budget, obiettivi di
-      risparmio, obbligazioni e prestiti, movimenti ricorrenti, buoni pasto, dati di
-      busta paga
-    </td>
-  </tr>
-  <tr>
-    <td>Dati di condivisione</td>
-    <td>Collegamenti con altri utenti, sfide e riconoscimenti</td>
-  </tr>
-  <tr>
-    <td>Notifiche</td>
-    <td>Identificativo del dispositivo usato per recapitarle</td>
-  </tr>
-</table>
+<h2>Cosa viene cancellato</h2>
+<ul>
+  <li>Account, email, username, avatar, preferenze e token di notifica.</li>
+  <li>Movimenti, wallet, budget, obiettivi, buste paga, categorie, piani del Pianificatore IA,
+      amicizie, sfide e badge.</li>
+  <li>L'account di accesso (Firebase), con nuovi tentativi automatici in caso di errore.</li>
+</ul>
 
-<h2>Che cosa viene conservato, e per quanto</h2>
-<table>
-  <tr><th>Elemento</th><th>Periodo</th><th>Perché</th></tr>
-  <tr>
-    <td>Identificativo tecnico anonimo della cancellazione</td>
-    <td>A tempo indeterminato</td>
-    <td>
-      Non contiene dati personali e non permette di risalire alla tua identità. Serve a
-      impedire che eventuali dati residui vengano riassociati a un nuovo account.
-    </td>
-  </tr>
-  <tr>
-    <td>Elementi eliminati dall'app prima della chiusura dell'account</td>
-    <td>Fino a 30 giorni</td>
-    <td>
-      Budget, obiettivi di risparmio e gruppi di obbligazioni cancellati singolarmente
-      restano recuperabili per 30 giorni, poi vengono rimossi definitivamente.
-    </td>
-  </tr>
-</table>
+<h2>Cosa viene conservato</h2>
+<ul>
+  <li>Nelle spese e nei debiti <strong>condivisi con altri utenti</strong>, le righe che
+      appartengono anche a loro restano, ma il tuo nome viene sostituito da un riferimento
+      anonimo.</li>
+  <li>Un'impronta crittografica non reversibile dell'identificativo di accesso, che impedisce
+      di ricreare automaticamente l'account eliminato e non contiene altri dati.</li>
+  <li>I dati degli acquisti, per il tempo richiesto dalle norme fiscali, presso lo store o
+      Stripe.</li>
+  <li>I backup tecnici e i log vengono sovrascritti nel normale ciclo di rotazione, entro
+      30 giorni.</li>
+</ul>
 
+<div class="card">
+  Eliminare l'account <strong>non disdice</strong> un abbonamento acquistato tramite Google
+  Play, App Store o Microsoft Store: disdicilo anche dalla gestione abbonamenti dello store.
+</div>
+
+<h2>Cancellare solo i dati, mantenendo l'account</h2>
 <p>
-  Nessun altro dato viene conservato. Non esistono periodi di conservazione aggiuntivi
-  oltre a quelli indicati sopra.
+  In app: <strong>Impostazioni → Zona pericolosa → Elimina Tutti i Dati</strong>. Rimuove i
+  tuoi dati finanziari lasciando attivo l'account, per ripartire da zero senza registrarti
+  di nuovo.
 </p>
 
 <h2>Dati sul tuo dispositivo</h2>
 <p>
-  L'applicazione mantiene una copia locale dei dati per funzionare anche senza
-  connessione. Quella copia resta sul dispositivo e non è accessibile a noi: viene
-  rimossa disinstallando l'applicazione.
+  L'app mantiene una copia locale dei dati per funzionare anche senza connessione. Quella
+  copia resta sul dispositivo e viene rimossa disinstallando l'app.
 </p>
 
 <footer>
   <p>
-    MoneyMind — <code>it.alphamind.moneymind</code><br>
-    Sviluppatore: Carlo Giacomo Verzeri —
-    <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
-    <a href="../">Informativa sulla privacy</a>
+    BudgetBeacon — <code>it.alphamind.moneymind</code><br>
+    Contatto: <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
+    Dettagli completi nell'<a href="../">informativa sulla privacy</a>
   </p>
 </footer>
 
