@@ -51,7 +51,7 @@
 <h1>Informativa sulla privacy</h1>
 <p class="sub"><strong>BudgetBeacon</strong> (nome del progetto: MoneyMind) — app di finanza personale</p>
 <p class="sub">Resa ai sensi degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR)</p>
-<p class="sub">Versione: 2026-10-04</p>
+<p class="sub">Versione: 2026-10-08</p>
 
 <p>
   Questa informativa spiega <strong>quali dati raccogliamo</strong>, <strong>perché</strong>,
@@ -118,6 +118,15 @@
       tramite Telegram o WhatsApp se colleghi questi canali.</li>
 </ul>
 
+<h3>Spese dalle notifiche bancarie (solo Android, solo se attivi la funzione)</h3>
+<ul>
+  <li>Il testo delle notifiche delle app bancarie che scegli, quando contiene un importo e nessun codice di sicurezza, anche quando l'app è chiusa. Serve solo a proporti la spesa e <strong>non viene conservato</strong>.</li>
+  <li>Della spesa proposta conserviamo importo, valuta, data, descrizione, nome dell'app bancaria e un'impronta crittografica non reversibile della notifica, che serve a non proportela due volte.</li>
+  <li>Le notifiche possono contenere nomi di altre persone (per esempio chi ti ha fatto un bonifico): li usiamo solo per descrivere la spesa proposta.</li>
+  <li>Le notifiche delle altre app vengono controllate soltanto sul telefono, per riconoscere quelle con un importo: <strong>non vengono salvate né inviate</strong>. Sul telefono resta solo il nome delle app che hanno mostrato un importo, per permetterti di scegliere la tua banca.</li>
+  <li>Una chiave del dispositivo che vale solo per inviare queste notifiche, conservata cifrata sul telefono; sul server ne teniamo solo un'impronta.</li>
+</ul>
+
 <h3>Dati sociali (solo se usi le funzioni social)</h3>
 <ul>
   <li>Amicizie e richieste di amicizia, sfide, badge, wallet condivisi.</li>
@@ -153,6 +162,7 @@
   <tr><td>Autenticazione e sicurezza dell'account, prevenzione degli abusi</td><td>Esecuzione del contratto e legittimo interesse alla sicurezza</td></tr>
   <tr><td>Gestire abbonamenti, rinnovi e rimborsi</td><td>Esecuzione del contratto e obblighi di legge</td></tr>
   <tr><td>Pianificatore IA e inserimento spese da testo/voce/foto</td><td>Esecuzione del contratto (funzioni che attivi tu)</td></tr>
+  <tr><td>Proposte di spesa dalle notifiche bancarie</td><td>Esecuzione del contratto (funzione che attivi tu e puoi disattivare in ogni momento)</td></tr>
   <tr><td>Funzioni social</td><td>Esecuzione del contratto (funzioni che attivi tu)</td></tr>
   <tr><td>Notifiche push</td><td>Esecuzione del contratto; puoi disattivarle dalle impostazioni o dal sistema operativo</td></tr>
   <tr><td>Diagnostica degli errori e dei crash</td><td>Legittimo interesse al funzionamento del servizio</td></tr>
@@ -175,7 +185,7 @@
   <tr><td>Apple (App Store)</td><td>Acquisti e rimborsi su iOS</td><td>Dati dell'acquisto</td></tr>
   <tr><td>Microsoft (Microsoft Store)</td><td>Acquisti su Windows</td><td>Dati dell'acquisto</td></tr>
   <tr><td>Stripe</td><td>Pagamenti dal web</td><td>Dati dell'acquisto; la carta la gestisce solo Stripe</td></tr>
-  <tr><td>Anthropic, OpenAI</td><td>Modelli di intelligenza artificiale per il Pianificatore IA e l'inserimento spese da testo/voce/foto</td><td>Solo i dati necessari alla richiesta, quando usi queste funzioni, con alcuni identificativi oscurati</td></tr>
+  <tr><td>Anthropic, OpenAI</td><td>Modelli di intelligenza artificiale per il Pianificatore IA, l'inserimento spese da testo/voce/foto e le spese dalle notifiche bancarie</td><td>Solo i dati necessari alla richiesta, quando usi queste funzioni, con alcuni identificativi oscurati</td></tr>
   <tr><td>Telegram, Meta (WhatsApp)</td><td>Inserimento spese via chat, solo se colleghi il canale</td><td>I messaggi che invii al bot</td></tr>
   <tr><td>Sentry</td><td>Segnalazione di crash ed errori</td><td>Dati tecnici, senza dati personali di default</td></tr>
   <tr><td>Zoho Mail</td><td>Email di assistenza</td><td>Il messaggio e l'email di risposta che fornisci</td></tr>
@@ -208,6 +218,7 @@
   <li><strong>Elementi che hai eliminato</strong> (es. budget, obiettivi): vengono rimossi
       definitivamente entro 30 giorni.</li>
   <li><strong>Risposte salvate del Pianificatore IA</strong>: scadono dopo 12 mesi senza modifiche.</li>
+  <li><strong>Spese dalle notifiche bancarie</strong>: il testo della notifica non viene conservato. Le proposte che non confermi né scarti scadono dopo 14 giorni; quelle già decise vengono cancellate dopo 30 giorni. Una spesa confermata diventa una normale transazione. Sul telefono le notifiche in attesa di invio restano al massimo 7 giorni.</li>
   <li><strong>Log tecnici</strong>: fino a 30 giorni.</li>
   <li><strong>Dati di acquisto</strong>: per il tempo richiesto dalle norme fiscali e contabili.</li>
   <li><strong>Prova dell'accettazione dei Termini</strong>: per la durata dell'account.</li>
@@ -230,6 +241,7 @@
   <li><strong>Cancellare tutti i dati</strong> mantenendo l'account, oppure <strong>eliminare
       l'account</strong> in modo permanente (<em>Impostazioni → Account → Modifica Profilo →
       Elimina account</em>). L'operazione è irreversibile.</li>
+  <li><strong>Disattivare le spese dalle notifiche</strong> (<em>Impostazioni → Spese dalle notifiche</em>): dal telefono vengono cancellate la chiave e le notifiche in attesa, e la chiave viene revocata. Puoi anche togliere a BudgetBeacon l'accesso alle notifiche dalle impostazioni del telefono.</li>
 </ul>
 <p>
   Se non puoi accedere all'app, puoi chiedere l'eliminazione dell'account seguendo le
@@ -249,6 +261,7 @@
   <li>Ogni richiesta è autenticata tramite Firebase e verificata dal server.</li>
   <li>I dati viaggiano cifrati (HTTPS); i token sul dispositivo sono in storage sicuro.</li>
   <li>I segreti applicativi non sono inclusi nel codice.</li>
+  <li>Le notifiche bancarie inviate ad app chiusa sono autenticate da una chiave dedicata, che permette solo questo invio, è conservata cifrata sul telefono e di cui il server conserva solo un'impronta.</li>
 </ul>
 
 <h2 id="minori">8. Minori</h2>
@@ -276,7 +289,7 @@
   <p>
     BudgetBeacon — <code>it.alphamind.moneymind</code><br>
     Contatto: <a href="mailto:info@alphamind.it">info@alphamind.it</a><br>
-    Versione 2026-10-04 · <a href="eliminazione-account/">Eliminazione dell'account</a>
+    Versione 2026-10-08 · <a href="eliminazione-account/">Eliminazione dell'account</a>
   </p>
 </footer>
 
