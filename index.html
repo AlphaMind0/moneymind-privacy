@@ -121,9 +121,9 @@
 <h3>Spese dalle notifiche bancarie (solo Android, solo se attivi la funzione)</h3>
 <ul>
   <li>Il testo delle notifiche delle app bancarie che scegli, quando contiene un importo e nessun codice di sicurezza, anche quando l'app è chiusa. Serve solo a proporti la spesa e <strong>non viene conservato</strong>.</li>
-  <li>Della spesa proposta conserviamo importo, valuta, data, descrizione, nome dell'app bancaria e un'impronta crittografica non reversibile della notifica, che serve a non proportela due volte.</li>
+  <li>La spesa letta diventa una transazione <strong>in attesa di conferma</strong> nel conto che hai scelto, con importo, valuta, data, descrizione e il nome dell'app bancaria nella nota: non conta nei saldi finché non la confermi, e puoi rifiutarla. Conserviamo anche un'impronta crittografica non reversibile della notifica, che serve a non creare due volte la stessa spesa.</li>
   <li>Le notifiche possono contenere nomi di altre persone (per esempio chi ti ha fatto un bonifico): li usiamo solo per descrivere la spesa proposta.</li>
-  <li>Le notifiche delle altre app vengono controllate soltanto sul telefono, per riconoscere quelle con un importo: <strong>non vengono salvate né inviate</strong>. Sul telefono resta solo il nome delle app che hanno mostrato un importo, per permetterti di scegliere la tua banca.</li>
+  <li>Le notifiche delle altre app vengono controllate soltanto sul telefono, per riconoscere quelle con un importo, e <strong>non vengono inviate</strong>. Sul telefono resta il nome delle app che hanno mostrato un importo, per permetterti di scegliere la tua banca; le loro notifiche con un importo restano sul telefono al massimo 48 ore, così la prima notifica della tua banca non va persa se la scegli dopo.</li>
   <li>Una chiave del dispositivo che vale solo per inviare queste notifiche, conservata cifrata sul telefono; sul server ne teniamo solo un'impronta.</li>
 </ul>
 
@@ -218,7 +218,7 @@
   <li><strong>Elementi che hai eliminato</strong> (es. budget, obiettivi): vengono rimossi
       definitivamente entro 30 giorni.</li>
   <li><strong>Risposte salvate del Pianificatore IA</strong>: scadono dopo 12 mesi senza modifiche.</li>
-  <li><strong>Spese dalle notifiche bancarie</strong>: il testo della notifica non viene conservato. Le proposte che non confermi né scarti scadono dopo 14 giorni; quelle già decise vengono cancellate dopo 30 giorni. Una spesa confermata diventa una normale transazione. Sul telefono le notifiche in attesa di invio restano al massimo 7 giorni.</li>
+  <li><strong>Spese dalle notifiche bancarie</strong>: il testo della notifica non viene conservato. La transazione in attesa resta nel conto finché non la confermi o la rifiuti, come le altre transazioni. L'impronta della notifica viene cancellata dopo 30 giorni. Sul telefono le notifiche in attesa di invio restano al massimo 7 giorni, quelle di app non ancora scelte al massimo 48 ore.</li>
   <li><strong>Log tecnici</strong>: fino a 30 giorni.</li>
   <li><strong>Dati di acquisto</strong>: per il tempo richiesto dalle norme fiscali e contabili.</li>
   <li><strong>Prova dell'accettazione dei Termini</strong>: per la durata dell'account.</li>
